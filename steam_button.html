@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+ <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>STEAMED ITEMS</h1>
+<hr>
+
+
+<p>One of the healthiest way to eat something tasty as well as oil free is to steam. Steamed food are usually light for the stomach as well. </p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="cabbage_roll.html">
+      <img src="chicken_cabbage_roll.jpg" alt="chicken_cabbage_roll" style="width:100%">
+      <h3>CABBAGE CHICKEN ROLL</h3>
+    
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="paneer_momo.html">
+      <img src="paneer_momo.jpg" alt="paneer_momo" style="width:100%">
+      <h3>PANEER MOMOS</h3>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="chicken_soup.html">
+      <img src="chicken_soup.jpg" alt="chicken_soup" style="width:100%">
+      <h3>CHICKEN SOUP</h3>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="veg_momo.html">
+      <img src="veg_momo.jpg" alt="veg_momo" style="width:100%">
+      <h3>VEGETABLE MOMOS</h3>
+      </a>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- END MAIN -->
+</div>
+<style type="text/css">
+	* {
+  box-sizing: border-box;
+  font-family: Century Gothic
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+h3{
+  text-align: center;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+ <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>INDIAN CURRIES</h1>
+<hr>
+
+
+<p>Curry is a variety of dishes originating in the Indian subcontinent. It uses a combination of spices or herbs, usually including ground turmeric, cumin, coriander, ginger, and fresh or dried chilies and any more combination of indian spices. Curry is generally prepared as a sauce.  </p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="butter_chicken.html">
+      <img src="butter_chicken.jpg" alt="butter_chicken" style="width:100%">
+      <h3>BUTTER CHICKEN</h3>
+    
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="malai_kofta.html">
+      <img src="malai_kofta.jpg" alt="malai_kofta" style="width:100%">
+      <h3>MALAI KOFTA</h3>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="dal_makhni.html">
+      <img src="dal_makhni.jpg" alt="dal_makhni" style="width:100%">
+      <h3>DAL MAKHNI</h3>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="paneer_makhni.html">
+      <img src="paneer_makhni.jpg" alt="paneer_makhni" style="width:100%">
+      <h3>PANEER MAKHNI</h3>
+      </a>
+    </div>
+  </div>
+    
+</div>
+
+
+<!-- END MAIN -->
+</div>
+<style type="text/css">
+	* {
+  box-sizing: border-box;
+  font-family: Century Gothic
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+h3{
+  text-align: center;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</body>
+</html>

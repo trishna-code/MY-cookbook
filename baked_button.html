@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+ <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>BAKED ITEMS</h1>
+<hr>
+
+
+<p>Baked goods are foods made from dough or batter and cooked by baking,<br> a method of cooking food that uses prolonged dry heat,<br> normally in an oven, but also in hot ashes, or on hot stones.<br> The most common baked item is bread but many other types of foods are baked as well.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="baked_pasta.html">
+      <img src="baked_pasta.jpg" alt="baked_pasta" style="width:100%">
+      <h3>BAKED PASTA</h3>
+    
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="zingy_parcel.html">
+      <img src="exit.jpg" alt="exit" style="width:100%">
+      <h3>ZINGY PARCEL</h3>
+    </a>
+    </div>
+  </div>
+   <div class="column">
+    <div class="content">
+      <a href="chicken_roll.html">
+      <img src="chicken_roll.jpg" alt="chicken_roll" style="width:100%">
+      <h3>CHICKEN ROLL</h3>
+    </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="veggies_roll.html">
+      <img src="veggies_roll.jpg" alt="veggies_roll" style="width:100%">
+      <h3>VEGGIES ROLL</h3>
+      </a>
+    </div>
+  </div>
+    
+</div>
+
+
+<!-- END MAIN -->
+</div>
+<style type="text/css">
+	* {
+  box-sizing: border-box;
+  font-family: Century Gothic
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+h3{
+  text-align: center;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</body>
+</html>
